@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bci1"
+    tools:context=".OwnerHomepageActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        app:title="Owner Home"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <Button
+                android:id="@+id/addService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:drawableStart="@drawable/ic_add_circle"
+                android:drawableEnd="@drawable/ic_add_circle"
+                android:text="Add Service"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/serviceList"
+                android:layout_below="@+id/addService"
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:drawableStart="@drawable/ic_list_alt"
+                android:drawableEnd="@drawable/ic_list_alt"
+                android:text="Service List"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/timeSet"
+                android:layout_below="@+id/serviceList"
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:drawableStart="@drawable/ic_time"
+                android:drawableEnd="@drawable/ic_time"
+                android:text="Operation hours"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/timeView"
+                android:layout_below="@+id/timeSet"
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:drawableStart="@drawable/ic_time"
+                android:drawableEnd="@drawable/ic_time"
+                android:text="View Operation hours"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/workshopImage"
+                android:layout_below="@+id/timeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:drawableStart="@drawable/ic_image"
+                android:drawableEnd="@drawable/ic_image"
+                android:text="Upload Workshop Image"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/ownerFunction5"
+                android:layout_below="@+id/workshopImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:drawableStart="@drawable/ic_list_alt"
+                android:drawableEnd="@drawable/ic_list_alt"
+                android:layout_marginBottom="40dp"
+                android:text="APPOINTMENT LIST"
+                android:gravity="center"/>
+
+
+            <Button
+                android:id="@+id/changePassword"
+                android:layout_below="@+id/ownerFunction5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableEnd="@drawable/ic_lock"
+                android:layout_marginBottom="40dp"
+                android:text="Change Password"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/logOut"
+                android:layout_below="@+id/changePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_power_settings"
+                android:drawableEnd="@drawable/ic_power_settings"
+                android:background="@color/green"
+                android:layout_marginBottom="40dp"
+                android:text="Log Out"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

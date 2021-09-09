@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+   <!--https://www.youtube.com/watch?v=vpObpZ5MYSE&t=845s-->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="2"
+       android:orientation="vertical"
+       android:background="@color/colorPrimary">
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/sownerID"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/blue"
+          android:text="ownerID"
+          android:textSize="50sp"
+          android:textStyle="bold"
+         android:visibility="gone"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+          <TextView
+              android:textSize="25sp"
+              android:text="@string/sername"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/sername"
+              android:textSize="20sp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textStyle="bold"
+              android:textColor="@color/blue" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+      <TextView
+          android:textSize="25sp"
+          android:text="@string/serprice"
+          android:textStyle="bold"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:id="@+id/serprice"
+          android:textSize="20sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="@color/blue" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+      <TextView
+          android:textSize="25sp"
+          android:text="@string/Exptime"
+          android:textStyle="bold"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:id="@+id/sertime"
+          android:textSize="20sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="@color/blue" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+      <TextView
+          android:textSize="25sp"
+          android:text="Service Category:"
+          android:textStyle="bold"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:id="@+id/cat"
+          android:textSize="20sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="@color/blue" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:orientation="horizontal">
+      <TextView
+          android:textSize="25sp"
+          android:text="Description:"
+          android:textStyle="bold"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:id="@+id/desc"
+          android:textSize="20sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="@color/blue" />
+
+       </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="center">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/update"
+             android:text="update"/>
+         <!--android:visibility="invisible"/>-->
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/delete"
+             android:text="delete"/>
+
+      </LinearLayout>
+   </LinearLayout>
+</LinearLayout>

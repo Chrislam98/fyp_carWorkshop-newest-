@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity"
+    android:background="@drawable/bci1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statususer"
+        android:text="statusUser"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/profile_bar_layout"/>
+
+    <!--<androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="50dp"
+        android:layout_marginBottom="-50dp">
+
+    </androidx.cardview.widget.CardView>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/green_boader"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Appointment History"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:id="@+id/showAppointment"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/green_boader"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Vehicle"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:id="@+id/addVehicle"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/green_boader"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Edit Profile"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:id="@+id/editProfile"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/green_boader"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Edit Vehicle"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:id="@+id/editVehicle"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/green_boader"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Review Shop"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:id="@+id/rankShop"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/green_boader"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Change Password"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:id="@+id/changePsw"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        android:background="@drawable/green_boader"
+        tools:targetApi="p">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Log Out"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:id="@+id/logout"
+            android:textSize="20sp"
+            android:background="?attr/selectableItemBackground"/>
+    </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

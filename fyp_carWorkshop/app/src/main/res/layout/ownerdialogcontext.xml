@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update status Panel"
+        android:background="@color/green"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff" />
+    <!--other info start-->
+    <TextView
+        android:id="@+id/osdownerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ownerID"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/osdappnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="osdappnum"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/osdimgurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="osdimgurl"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/osdmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="osdmobile"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/osdrole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="osdrole"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/osdwsadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="osdwsadd"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/osdwsname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="osdwsname"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <!--other info end-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:id="@+id/osdname"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:id="@+id/osdemail"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:id="@+id/osdstatus"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="block owner"
+        android:id="@+id/osdblock"
+        android:background="@color/green"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="allow owner"
+        android:id="@+id/osdallow"
+        android:background="@color/green"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+</LinearLayout>

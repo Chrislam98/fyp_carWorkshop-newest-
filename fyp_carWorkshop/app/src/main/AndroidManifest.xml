@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carworkshop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OPtableActivity"></activity>
+        <activity android:name=".AdvActivity" />
+        <activity android:name=".AddNewAdvActivity" />
+        <activity android:name=".ChangeAdminPasswordActivity" />
+        <activity android:name=".ChangeOwnerPasswordActivity" />
+        <activity android:name=".OsAppDetail" />
+        <activity android:name=".OwnerAppointmentlistActivity" />
+        <activity android:name=".DetailsOwnerActivity" />
+        <activity android:name=".ReviewOwnerListActivity" />
+        <activity android:name=".ReviewOwnerActivity" />
+        <activity android:name=".DetailsAppointmentActivity" />
+        <activity android:name=".SearchServiceActivity" />
+        <activity android:name=".AdminHomepageActivity" />
+        <activity android:name=".OwnerHomepageActivity" />
+        <activity android:name=".UpdateVehicleActivity" />
+        <activity android:name=".EditVehicleActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".AddVehicleActivity" />
+        <activity android:name=".SearchWorkShopActivity" />
+        <activity android:name=".UserHomeActivity" />
+        <activity android:name=".WsImageActivity" />
+        <activity android:name=".WorkshopImgActivity" />
+        <activity android:name=".OwnerTimeSet" />
+        <activity android:name=".IconActivity" />
+        <activity android:name=".NewCatActivity" />
+        <activity android:name=".OwnerListActivity" />
+        <activity android:name=".QaActivity" />
+        <activity android:name=".AppointmentListActivity" />
+        <activity android:name=".AddAppointmentActivity" />
+        <activity android:name=".UserListActivity" />
+        <activity android:name=".ListServiceActivity" />
+        <activity android:name=".OwnerAddServiceActivity" />
+        <activity android:name=".OwnerServiceActivity" />
+        <activity android:name=".OwnerHomeActivity" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity android:name=".RegOwnerActivity" />
+        <activity android:name=".RegAdminActivity" />
+        <activity android:name=".LoginUserActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".UserHomeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        app:title="Garageku"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/userStatus"/>
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/image_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:iss_auto_cycle="true"
+        app:iss_delay="0"
+        app:iss_period="3000"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_slider"
+        android:background="@drawable/bci1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Service"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_margin="10dp">
+
+        </TextView>
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/colorPrimaryDark"
+                android:visibility="visible"
+                tools:targetApi="lollipop" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intro"/>
+
+
+            <TextView
+                android:id="@+id/intro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Shop"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@+id/recyclerView1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_margin="10dp">
+
+            </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/intro2"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/colorPrimaryDark"
+                android:visibility="visible"
+                tools:targetApi="lollipop" />
+
+        </RelativeLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>

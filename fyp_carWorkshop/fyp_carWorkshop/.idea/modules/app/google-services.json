@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1015350979907",
+    "firebase_url": "https://carworkshop-c9e15.firebaseio.com",
+    "project_id": "carworkshop-c9e15",
+    "storage_bucket": "carworkshop-c9e15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015350979907:android:2f61325e00e19de59f93f6",
+        "android_client_info": {
+          "package_name": "com.example.carworkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015350979907-3o70hmqcn79p6e3fsrqg157ectdod7ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carworkshop",
+            "certificate_hash": "2f3262a1459705bcf6b498a66f51f1278bd5b9e0"
+          }
+        },
+        {
+          "client_id": "1015350979907-ra2aivvr00acht3aq8eddrf39pa3b4pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA361eknJZ8m5Lp1HmX6ri-zUjXvzwt2MQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015350979907-ra2aivvr00acht3aq8eddrf39pa3b4pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

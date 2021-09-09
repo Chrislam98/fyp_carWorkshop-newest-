@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">carWorkshop</string>
+    <string name="welcome_to_use_our_app">Welcome to use our app</string>
+    <string name="image">image</string>
+    <string name="logo">logo</string>
+    <string name="sername">Service Name:</string>
+    <string name="serprice">Service Price(RM):</string>
+    <string name="Exptime">Expected Time(min):</string>
+    <string name="check">Detail</string>
+    <string name="ans1"> 1. please individual email to this admin email to request to unblock the account.\nemail: admin@gmail.com \ntel:07-XXXXXXX\ntel:07-XXXXXXX </string>
+    <string name="ans2">1. the individual can email to this admin email to request to become our owner member.\nemail: admin@gmail.com \ntel:07-XXXXXXX\ntel:07-XXXXXXX </string>
+    <string-array name="role">
+        <item>Customers</item>
+        <item>Owners</item>
+        <item>Admins</item>
+    </string-array>
+    <string name="desc">Operation Hours</string>
+    <string name="day">Day</string>
+    <string name="timeS1">Time (morning slot)</string>
+    <string name="timeS2">Time (afternoon slot)</string>
+    <string name="mo">Mon</string>
+    <string name="tu">Tues</string>
+    <string name="we">Wed</string>
+    <string name="th">Thur</string>
+    <string name="fr">Fri</string>
+    <string name="sa">Sat</string>
+    <string name="su">Sun</string>
+    <string-array name="time1">
+        <item>Rest</item>
+        <item>0600</item>
+        <item>0630</item>
+        <item>0700</item>
+        <item>0730</item>
+        <item>0800</item>
+        <item>0830</item>
+        <item>0900</item>
+        <item>0930</item>
+        <item>1000</item>
+        <item>1030</item>
+        <item>1100</item>
+        <item>1130</item>
+        <item>1200</item>
+        <item>1230</item>
+        <item>1300</item>
+        <item>1330</item>
+    </string-array>
+    <string-array name="time2">
+        <item>Rest</item>
+        <item>1400</item>
+        <item>1430</item>
+        <item>1500</item>
+        <item>1530</item>
+        <item>1600</item>
+        <item>1630</item>
+        <item>1700</item>
+        <item>1730</item>
+        <item>1800</item>
+        <item>1830</item>
+        <item>1900</item>
+        <item>1930</item>
+        <item>2000</item>
+        <item>2030</item>
+        <item>2100</item>
+        <item>2130</item>
+        <item>2200</item>
+        <item>2230</item>
+        <item>2300</item>
+        <item>2330</item>
+    </string-array>
+    <string name="to">To</string>
+
+    <string-array name="status">
+        <item>Select…</item>
+        <item>complete</item>
+        <item>accept</item>
+        <item>pending</item>
+        <item>cancel</item>
+    </string-array>
+
+    <string-array name="vehicle">
+        <item>Select…</item>
+        <item>Honda</item>
+        <item>Proton</item>
+        <item>Toyota</item>
+        <item>Perodua</item>
+        <item>KIA</item>
+        <item>Chevrolet</item>
+        <item>Audi</item>
+        <item>Mercedes-Benz</item>
+        <item>Nissan</item>
+        <item>Mazda</item>
+        <item>BMW</item>
+        <item>Suzuki</item>
+        <item>Hyundai</item>
+        <item>Lamborghini</item>
+        <item>Ford</item>
+        <item>Honda</item>
+    </string-array>
+
+    <string-array name="statesAndCities">
+        <item>Select…</item>
+        <item>Johor</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Perak</item>
+        <item>Peneng</item>
+        <item>Perlis</item>
+        <item>Sarawak</item>
+        <item>Sabah</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+        <item>Kelantan</item>
+        <item>Kedah</item>
+        <item>Kuala Lumpur</item>
+        <item>Kuching</item>
+        <item>Kota Kinabalu</item>
+        <item>George Town</item>
+        <item>Putrajaya</item>
+        <item>Johor Bahru</item>
+        <item>Ipoh</item>
+        <item>Pertaling Jaya</item>
+        <item>Shah Alam</item>
+        <item>Seremban</item>
+        <item>Sandakan</item>
+        <item>Kota Bharu</item>
+        <item>Kuala Terengganu</item>
+        <item>Kuantan</item>
+        <item>Subang Jaya</item>
+        <item>Alor Star</item>
+        <item>Miri</item>
+        <item>Klang</item>
+        <item>Tawau</item>
+        <item>Sibu</item>
+        <item>Nusajaya</item>
+        <item>Bintulu</item>
+        <item>Cyberjaya</item>
+        <item>Port Dickson</item>
+        <item>Kajang</item>
+        <item>Kinabatangan</item>
+        <item>Bandar Sunway</item>
+        <item>Kangar</item>
+        <item>Sungai Petani</item>
+        <item>Ampang Jaya</item>
+        <item>Sepang</item>
+        <item>Kuala Kangsar</item>
+        <item>Kangar</item>
+    </string-array>
+    <string name="tt"><u>operation hours table</u></string>
+</resources>

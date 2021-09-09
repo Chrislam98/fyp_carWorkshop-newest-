@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHomepageActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        app:title="Admin Home"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <Button
+                android:id="@+id/regAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_add_circle"
+                android:drawableEnd="@drawable/ic_add_circle"
+                android:background="@color/green"
+                android:text="Register Admin"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/regOwner"
+                android:layout_below="@+id/regAdmin"
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_add_circle"
+                android:drawableEnd="@drawable/ic_add_circle"
+                android:background="@color/green"
+                android:text="Register Owner"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/userList"
+                android:layout_below="@+id/regOwner"
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_list_alt"
+                android:drawableEnd="@drawable/ic_list_alt"
+                android:background="@color/green"
+                android:text="User List"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/ownerList"
+                android:layout_below="@+id/userList"
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_list_alt"
+                android:drawableEnd="@drawable/ic_list_alt"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:text="Owner List"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/addCategory"
+                android:layout_below="@+id/ownerList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:drawableStart="@drawable/ic_add_circle"
+                android:drawableEnd="@drawable/ic_add_circle"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/green"
+                android:text="Add Category"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/changePassword"
+                android:layout_below="@+id/addCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableEnd="@drawable/ic_lock"
+                android:layout_marginBottom="40dp"
+                android:background="@color/green"
+                android:text="Change Password"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/logOut"
+                android:layout_below="@+id/changePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_power_settings"
+                android:drawableEnd="@drawable/ic_power_settings"
+                android:layout_marginBottom="40dp"
+                android:background="@color/green"
+                android:text="Log Out"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

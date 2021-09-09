@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bci1"
+    tools:context=".QaActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/bar_layout"/>
+
+    <TextView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/qa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="account be lock"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_below="@+id/qa1"
+        android:id="@+id/ans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ans1"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:layout_below="@+id/ans1"
+        android:id="@+id/qa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="how to register become owner"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_below="@+id/qa2"
+        android:id="@+id/ans2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ans2"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
